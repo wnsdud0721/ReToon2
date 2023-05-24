@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1000B57828A7FE23005D8882 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000B57728A7FE23005D8882 /* ThirdViewController.swift */; };
+		101D095128A34DB50044F3AA /* NanumSquareRoundB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 101D094D28A34DB50044F3AA /* NanumSquareRoundB.ttf */; };
+		101D095228A34DB50044F3AA /* NanumSquareRoundL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 101D094E28A34DB50044F3AA /* NanumSquareRoundL.ttf */; };
+		101D095328A34DB50044F3AA /* NanumSquareRoundR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 101D094F28A34DB50044F3AA /* NanumSquareRoundR.ttf */; };
+		101D095428A34DB50044F3AA /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 101D095028A34DB50044F3AA /* NanumSquareRoundEB.ttf */; };
+		101D095628A373E90044F3AA /* MyCollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D095528A373E90044F3AA /* MyCollectionViewCell1.swift */; };
+		101D095828A37E370044F3AA /* retoonPopular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D095728A37E370044F3AA /* retoonPopular.swift */; };
+		101D095A28A396080044F3AA /* MyCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D095928A396080044F3AA /* MyCollectionViewCell2.swift */; };
+		101D095C28A396A80044F3AA /* todayReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D095B28A396A80044F3AA /* todayReview.swift */; };
+		101D095E28A3C7030044F3AA /* MyCollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D095D28A3C7030044F3AA /* MyCollectionViewCell3.swift */; };
+		101D096028A3C7100044F3AA /* userRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D095F28A3C7100044F3AA /* userRecommend.swift */; };
+		101D096228A3E6F00044F3AA /* MyCollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D096128A3E6F00044F3AA /* MyCollectionViewCell4.swift */; };
+		101D096428A3E7030044F3AA /* webtoonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D096328A3E7030044F3AA /* webtoonList.swift */; };
+		1050882128AC7F7600CC726D /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1050882028AC7F7600CC726D /* SeventhViewController.swift */; };
+		1050882328AC82EB00CC726D /* MyCollectionViewCell8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1050882228AC82EB00CC726D /* MyCollectionViewCell8.swift */; };
+		1050882528AC830B00CC726D /* webtoonReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1050882428AC830B00CC726D /* webtoonReview.swift */; };
+		1050882728AC982400CC726D /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1050882628AC982400CC726D /* EighthViewController.swift */; };
+		1060375E28A77BE700C89B6A /* SecondViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1060375D28A77BE700C89B6A /* SecondViewControllerB.swift */; };
+		10863F5428B331F4000FD4D8 /* EleventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10863F5328B331F4000FD4D8 /* EleventhViewController.swift */; };
+		10863F5728B34EE0000FD4D8 /* TwelvethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10863F5628B34EE0000FD4D8 /* TwelvethViewController.swift */; };
+		10863F5928B35A38000FD4D8 /* ThirteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10863F5828B35A38000FD4D8 /* ThirteenthViewController.swift */; };
+		10863F5B28B363C0000FD4D8 /* FourteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10863F5A28B363C0000FD4D8 /* FourteenthViewController.swift */; };
+		10863F5D28B3660D000FD4D8 /* FifteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10863F5C28B3660D000FD4D8 /* FifteenthViewController.swift */; };
+		10863F5F28B372DE000FD4D8 /* SixteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10863F5E28B372DE000FD4D8 /* SixteenthViewController.swift */; };
+		10863F6128B37743000FD4D8 /* FirstTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10863F6028B37743000FD4D8 /* FirstTabBarViewController.swift */; };
+		108C8EC628A9597700C9F5A5 /* MyCollectionViewCell4_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108C8EC528A9597700C9F5A5 /* MyCollectionViewCell4_2.swift */; };
+		108C8EC828A9598300C9F5A5 /* reviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108C8EC728A9598300C9F5A5 /* reviewList.swift */; };
+		108E7B3428A4BCB10096DEC1 /* SecondViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E7B3328A4BCB10096DEC1 /* SecondViewControllerA.swift */; };
+		10ACD3DA28A2B5B3001A37EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ACD3D928A2B5B3001A37EE /* AppDelegate.swift */; };
+		10ACD3DC28A2B5B3001A37EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ACD3DB28A2B5B3001A37EE /* SceneDelegate.swift */; };
+		10ACD3DE28A2B5B3001A37EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ACD3DD28A2B5B3001A37EE /* ViewController.swift */; };
+		10ACD3E128A2B5B3001A37EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ACD3DF28A2B5B3001A37EE /* Main.storyboard */; };
+		10ACD3E328A2B5B4001A37EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ACD3E228A2B5B4001A37EE /* Assets.xcassets */; };
+		10ACD3E628A2B5B4001A37EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10ACD3E428A2B5B4001A37EE /* LaunchScreen.storyboard */; };
+		10C1B06B28ACC449002E3BBA /* NinethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1B06A28ACC449002E3BBA /* NinethViewController.swift */; };
+		10C1B06D28ACCA53002E3BBA /* MyCollectionViewCell9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1B06C28ACCA53002E3BBA /* MyCollectionViewCell9.swift */; };
+		10C1B06F28ACCA5D002E3BBA /* readingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1B06E28ACCA5D002E3BBA /* readingList.swift */; };
+		10C1B07128ACD6A4002E3BBA /* TenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1B07028ACD6A4002E3BBA /* TenthViewController.swift */; };
+		10D17F5828ABE24700C2BB2A /* MyCollectionViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F5728ABE24700C2BB2A /* MyCollectionViewCell5.swift */; };
+		10D17F5A28ABE8BA00C2BB2A /* writeReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F5928ABE8BA00C2BB2A /* writeReview.swift */; };
+		10D17F5C28ABF99500C2BB2A /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F5B28ABF99500C2BB2A /* FifthViewController.swift */; };
+		10D17F5E28ABFB8E00C2BB2A /* MyCollectionViewCell6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F5D28ABFB8E00C2BB2A /* MyCollectionViewCell6.swift */; };
+		10D17F6028ABFBB500C2BB2A /* recommendWebToon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F5F28ABFBB500C2BB2A /* recommendWebToon.swift */; };
+		10D17F6228AC071F00C2BB2A /* MyCollectionViewCell7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F6128AC071F00C2BB2A /* MyCollectionViewCell7.swift */; };
+		10D17F6428AC073800C2BB2A /* addReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F6328AC073800C2BB2A /* addReview.swift */; };
+		10D17F6628AC076400C2BB2A /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D17F6528AC076400C2BB2A /* SixthViewController.swift */; };
+		10E73BC728A9683200A1DB9C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E73BC628A9683200A1DB9C /* FourthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1000B57728A7FE23005D8882 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		101D094D28A34DB50044F3AA /* NanumSquareRoundB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundB.ttf; sourceTree = "<group>"; };
+		101D094E28A34DB50044F3AA /* NanumSquareRoundL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundL.ttf; sourceTree = "<group>"; };
+		101D094F28A34DB50044F3AA /* NanumSquareRoundR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundR.ttf; sourceTree = "<group>"; };
+		101D095028A34DB50044F3AA /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundEB.ttf; sourceTree = "<group>"; };
+		101D095528A373E90044F3AA /* MyCollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell1.swift; sourceTree = "<group>"; };
+		101D095728A37E370044F3AA /* retoonPopular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retoonPopular.swift; sourceTree = "<group>"; };
+		101D095928A396080044F3AA /* MyCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell2.swift; sourceTree = "<group>"; };
+		101D095B28A396A80044F3AA /* todayReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayReview.swift; sourceTree = "<group>"; };
+		101D095D28A3C7030044F3AA /* MyCollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell3.swift; sourceTree = "<group>"; };
+		101D095F28A3C7100044F3AA /* userRecommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userRecommend.swift; sourceTree = "<group>"; };
+		101D096128A3E6F00044F3AA /* MyCollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell4.swift; sourceTree = "<group>"; };
+		101D096328A3E7030044F3AA /* webtoonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webtoonList.swift; sourceTree = "<group>"; };
+		1050882028AC7F7600CC726D /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
+		1050882228AC82EB00CC726D /* MyCollectionViewCell8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell8.swift; sourceTree = "<group>"; };
+		1050882428AC830B00CC726D /* webtoonReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webtoonReview.swift; sourceTree = "<group>"; };
+		1050882628AC982400CC726D /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
+		1060375D28A77BE700C89B6A /* SecondViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerB.swift; sourceTree = "<group>"; };
+		10863F5328B331F4000FD4D8 /* EleventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleventhViewController.swift; sourceTree = "<group>"; };
+		10863F5528B3352F000FD4D8 /* ReToon2Release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReToon2Release.entitlements; sourceTree = "<group>"; };
+		10863F5628B34EE0000FD4D8 /* TwelvethViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelvethViewController.swift; sourceTree = "<group>"; };
+		10863F5828B35A38000FD4D8 /* ThirteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirteenthViewController.swift; sourceTree = "<group>"; };
+		10863F5A28B363C0000FD4D8 /* FourteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourteenthViewController.swift; sourceTree = "<group>"; };
+		10863F5C28B3660D000FD4D8 /* FifteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifteenthViewController.swift; sourceTree = "<group>"; };
+		10863F5E28B372DE000FD4D8 /* SixteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixteenthViewController.swift; sourceTree = "<group>"; };
+		10863F6028B37743000FD4D8 /* FirstTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewController.swift; sourceTree = "<group>"; };
+		108C8EC528A9597700C9F5A5 /* MyCollectionViewCell4_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell4_2.swift; sourceTree = "<group>"; };
+		108C8EC728A9598300C9F5A5 /* reviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reviewList.swift; sourceTree = "<group>"; };
+		108E7B3328A4BCB10096DEC1 /* SecondViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerA.swift; sourceTree = "<group>"; };
+		10ACD3D628A2B5B3001A37EE /* ReToon2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReToon2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ACD3D928A2B5B3001A37EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10ACD3DB28A2B5B3001A37EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10ACD3DD28A2B5B3001A37EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10ACD3E028A2B5B3001A37EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10ACD3E228A2B5B4001A37EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10ACD3E528A2B5B4001A37EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10ACD3E728A2B5B4001A37EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C1B06A28ACC449002E3BBA /* NinethViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinethViewController.swift; sourceTree = "<group>"; };
+		10C1B06C28ACCA53002E3BBA /* MyCollectionViewCell9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell9.swift; sourceTree = "<group>"; };
+		10C1B06E28ACCA5D002E3BBA /* readingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readingList.swift; sourceTree = "<group>"; };
+		10C1B07028ACD6A4002E3BBA /* TenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthViewController.swift; sourceTree = "<group>"; };
+		10D17F5728ABE24700C2BB2A /* MyCollectionViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell5.swift; sourceTree = "<group>"; };
+		10D17F5928ABE8BA00C2BB2A /* writeReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeReview.swift; sourceTree = "<group>"; };
+		10D17F5B28ABF99500C2BB2A /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		10D17F5D28ABFB8E00C2BB2A /* MyCollectionViewCell6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell6.swift; sourceTree = "<group>"; };
+		10D17F5F28ABFBB500C2BB2A /* recommendWebToon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendWebToon.swift; sourceTree = "<group>"; };
+		10D17F6128AC071F00C2BB2A /* MyCollectionViewCell7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell7.swift; sourceTree = "<group>"; };
+		10D17F6328AC073800C2BB2A /* addReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addReview.swift; sourceTree = "<group>"; };
+		10D17F6528AC076400C2BB2A /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		10E73BC628A9683200A1DB9C /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10ACD3D328A2B5B3001A37EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101D094C28A34D9C0044F3AA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				101D094D28A34DB50044F3AA /* NanumSquareRoundB.ttf */,
+				101D095028A34DB50044F3AA /* NanumSquareRoundEB.ttf */,
+				101D094E28A34DB50044F3AA /* NanumSquareRoundL.ttf */,
+				101D094F28A34DB50044F3AA /* NanumSquareRoundR.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		10ACD3CD28A2B5B3001A37EE = {
+			isa = PBXGroup;
+			children = (
+				10ACD3D828A2B5B3001A37EE /* ReToon2 */,
+				10ACD3D728A2B5B3001A37EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10ACD3D728A2B5B3001A37EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10ACD3D628A2B5B3001A37EE /* ReToon2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10ACD3D828A2B5B3001A37EE /* ReToon2 */ = {
+			isa = PBXGroup;
+			children = (
+				10863F5528B3352F000FD4D8 /* ReToon2Release.entitlements */,
+				101D094C28A34D9C0044F3AA /* Font */,
+				10ACD3D928A2B5B3001A37EE /* AppDelegate.swift */,
+				10ACD3DB28A2B5B3001A37EE /* SceneDelegate.swift */,
+				10ACD3DD28A2B5B3001A37EE /* ViewController.swift */,
+				108E7B3328A4BCB10096DEC1 /* SecondViewControllerA.swift */,
+				1060375D28A77BE700C89B6A /* SecondViewControllerB.swift */,
+				1000B57728A7FE23005D8882 /* ThirdViewController.swift */,
+				10E73BC628A9683200A1DB9C /* FourthViewController.swift */,
+				10D17F5B28ABF99500C2BB2A /* FifthViewController.swift */,
+				10D17F6528AC076400C2BB2A /* SixthViewController.swift */,
+				1050882028AC7F7600CC726D /* SeventhViewController.swift */,
+				1050882628AC982400CC726D /* EighthViewController.swift */,
+				10C1B06A28ACC449002E3BBA /* NinethViewController.swift */,
+				10C1B07028ACD6A4002E3BBA /* TenthViewController.swift */,
+				10863F5328B331F4000FD4D8 /* EleventhViewController.swift */,
+				10863F5628B34EE0000FD4D8 /* TwelvethViewController.swift */,
+				10863F5828B35A38000FD4D8 /* ThirteenthViewController.swift */,
+				10863F5A28B363C0000FD4D8 /* FourteenthViewController.swift */,
+				10863F5C28B3660D000FD4D8 /* FifteenthViewController.swift */,
+				10863F5E28B372DE000FD4D8 /* SixteenthViewController.swift */,
+				10863F6028B37743000FD4D8 /* FirstTabBarViewController.swift */,
+				10ACD3DF28A2B5B3001A37EE /* Main.storyboard */,
+				10C1B06E28ACCA5D002E3BBA /* readingList.swift */,
+				10C1B06C28ACCA53002E3BBA /* MyCollectionViewCell9.swift */,
+				1050882428AC830B00CC726D /* webtoonReview.swift */,
+				1050882228AC82EB00CC726D /* MyCollectionViewCell8.swift */,
+				10D17F6328AC073800C2BB2A /* addReview.swift */,
+				10D17F6128AC071F00C2BB2A /* MyCollectionViewCell7.swift */,
+				10D17F5F28ABFBB500C2BB2A /* recommendWebToon.swift */,
+				10D17F5D28ABFB8E00C2BB2A /* MyCollectionViewCell6.swift */,
+				10D17F5928ABE8BA00C2BB2A /* writeReview.swift */,
+				10D17F5728ABE24700C2BB2A /* MyCollectionViewCell5.swift */,
+				108C8EC728A9598300C9F5A5 /* reviewList.swift */,
+				108C8EC528A9597700C9F5A5 /* MyCollectionViewCell4_2.swift */,
+				101D096328A3E7030044F3AA /* webtoonList.swift */,
+				101D096128A3E6F00044F3AA /* MyCollectionViewCell4.swift */,
+				101D095F28A3C7100044F3AA /* userRecommend.swift */,
+				101D095D28A3C7030044F3AA /* MyCollectionViewCell3.swift */,
+				101D095B28A396A80044F3AA /* todayReview.swift */,
+				101D095928A396080044F3AA /* MyCollectionViewCell2.swift */,
+				101D095728A37E370044F3AA /* retoonPopular.swift */,
+				101D095528A373E90044F3AA /* MyCollectionViewCell1.swift */,
+				10ACD3E228A2B5B4001A37EE /* Assets.xcassets */,
+				10ACD3E428A2B5B4001A37EE /* LaunchScreen.storyboard */,
+				10ACD3E728A2B5B4001A37EE /* Info.plist */,
+			);
+			path = ReToon2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10ACD3D528A2B5B3001A37EE /* ReToon2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10ACD3EA28A2B5B4001A37EE /* Build configuration list for PBXNativeTarget "ReToon2" */;
+			buildPhases = (
+				10ACD3D228A2B5B3001A37EE /* Sources */,
+				10ACD3D328A2B5B3001A37EE /* Frameworks */,
+				10ACD3D428A2B5B3001A37EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReToon2;
+			productName = ReToon2;
+			productReference = 10ACD3D628A2B5B3001A37EE /* ReToon2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10ACD3CE28A2B5B3001A37EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					10ACD3D528A2B5B3001A37EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 10ACD3D128A2B5B3001A37EE /* Build configuration list for PBXProject "ReToon2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10ACD3CD28A2B5B3001A37EE;
+			productRefGroup = 10ACD3D728A2B5B3001A37EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10ACD3D528A2B5B3001A37EE /* ReToon2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10ACD3D428A2B5B3001A37EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ACD3E628A2B5B4001A37EE /* LaunchScreen.storyboard in Resources */,
+				101D095428A34DB50044F3AA /* NanumSquareRoundEB.ttf in Resources */,
+				10ACD3E328A2B5B4001A37EE /* Assets.xcassets in Resources */,
+				10ACD3E128A2B5B3001A37EE /* Main.storyboard in Resources */,
+				101D095128A34DB50044F3AA /* NanumSquareRoundB.ttf in Resources */,
+				101D095228A34DB50044F3AA /* NanumSquareRoundL.ttf in Resources */,
+				101D095328A34DB50044F3AA /* NanumSquareRoundR.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10ACD3D228A2B5B3001A37EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C1B06B28ACC449002E3BBA /* NinethViewController.swift in Sources */,
+				10D17F5C28ABF99500C2BB2A /* FifthViewController.swift in Sources */,
+				1060375E28A77BE700C89B6A /* SecondViewControllerB.swift in Sources */,
+				108E7B3428A4BCB10096DEC1 /* SecondViewControllerA.swift in Sources */,
+				101D095828A37E370044F3AA /* retoonPopular.swift in Sources */,
+				10863F6128B37743000FD4D8 /* FirstTabBarViewController.swift in Sources */,
+				101D096428A3E7030044F3AA /* webtoonList.swift in Sources */,
+				10D17F6428AC073800C2BB2A /* addReview.swift in Sources */,
+				10863F5928B35A38000FD4D8 /* ThirteenthViewController.swift in Sources */,
+				10D17F5828ABE24700C2BB2A /* MyCollectionViewCell5.swift in Sources */,
+				1050882728AC982400CC726D /* EighthViewController.swift in Sources */,
+				10D17F5A28ABE8BA00C2BB2A /* writeReview.swift in Sources */,
+				10D17F6028ABFBB500C2BB2A /* recommendWebToon.swift in Sources */,
+				108C8EC628A9597700C9F5A5 /* MyCollectionViewCell4_2.swift in Sources */,
+				101D095628A373E90044F3AA /* MyCollectionViewCell1.swift in Sources */,
+				10C1B06F28ACCA5D002E3BBA /* readingList.swift in Sources */,
+				10ACD3DE28A2B5B3001A37EE /* ViewController.swift in Sources */,
+				10863F5D28B3660D000FD4D8 /* FifteenthViewController.swift in Sources */,
+				10863F5B28B363C0000FD4D8 /* FourteenthViewController.swift in Sources */,
+				10863F5428B331F4000FD4D8 /* EleventhViewController.swift in Sources */,
+				10D17F6228AC071F00C2BB2A /* MyCollectionViewCell7.swift in Sources */,
+				10ACD3DA28A2B5B3001A37EE /* AppDelegate.swift in Sources */,
+				10C1B06D28ACCA53002E3BBA /* MyCollectionViewCell9.swift in Sources */,
+				10863F5F28B372DE000FD4D8 /* SixteenthViewController.swift in Sources */,
+				10ACD3DC28A2B5B3001A37EE /* SceneDelegate.swift in Sources */,
+				108C8EC828A9598300C9F5A5 /* reviewList.swift in Sources */,
+				101D096228A3E6F00044F3AA /* MyCollectionViewCell4.swift in Sources */,
+				10C1B07128ACD6A4002E3BBA /* TenthViewController.swift in Sources */,
+				101D095A28A396080044F3AA /* MyCollectionViewCell2.swift in Sources */,
+				1050882328AC82EB00CC726D /* MyCollectionViewCell8.swift in Sources */,
+				1000B57828A7FE23005D8882 /* ThirdViewController.swift in Sources */,
+				101D095E28A3C7030044F3AA /* MyCollectionViewCell3.swift in Sources */,
+				101D095C28A396A80044F3AA /* todayReview.swift in Sources */,
+				101D096028A3C7100044F3AA /* userRecommend.swift in Sources */,
+				10863F5728B34EE0000FD4D8 /* TwelvethViewController.swift in Sources */,
+				10E73BC728A9683200A1DB9C /* FourthViewController.swift in Sources */,
+				10D17F5E28ABFB8E00C2BB2A /* MyCollectionViewCell6.swift in Sources */,
+				1050882128AC7F7600CC726D /* SeventhViewController.swift in Sources */,
+				1050882528AC830B00CC726D /* webtoonReview.swift in Sources */,
+				10D17F6628AC076400C2BB2A /* SixthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10ACD3DF28A2B5B3001A37EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ACD3E028A2B5B3001A37EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10ACD3E428A2B5B4001A37EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10ACD3E528A2B5B4001A37EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10ACD3E828A2B5B4001A37EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10ACD3E928A2B5B4001A37EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10ACD3EB28A2B5B4001A37EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7425535F6V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReToon2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Re:Toon";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앨범 접근 허용";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeus.ReToon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10ACD3EC28A2B5B4001A37EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReToon2/ReToon2Release.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69F5355JYF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReToon2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Re:Toon";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "앨범 접근 허용";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hong.ReToon2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10ACD3D128A2B5B3001A37EE /* Build configuration list for PBXProject "ReToon2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ACD3E828A2B5B4001A37EE /* Debug */,
+				10ACD3E928A2B5B4001A37EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10ACD3EA28A2B5B4001A37EE /* Build configuration list for PBXNativeTarget "ReToon2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10ACD3EB28A2B5B4001A37EE /* Debug */,
+				10ACD3EC28A2B5B4001A37EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10ACD3CE28A2B5B3001A37EE /* Project object */;
+}
